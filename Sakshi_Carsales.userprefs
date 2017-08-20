@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{0FC410AD-E5A5-42CA-9224-94C3C7B773BF}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Sakshi_Carsales/Views/Home/Index.cshtml">
+    <Files>
+      <File FileName="Sakshi_Carsales/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="Sakshi_Carsales/Models/Cars.cs" Line="12" Column="44" />
+      <File FileName="Sakshi_Carsales/Controllers/CarsController.cs" Line="8" Column="1" />
+      <File FileName="Sakshi_Carsales/Controllers/BikesController.cs" Line="49" Column="5" />
+      <File FileName="Sakshi_Carsales/Models/Bikes.cs" Line="7" Column="30" />
+      <File FileName="Sakshi_Carsales/Views/Bikes/List.cshtml" Line="15" Column="25" />
+      <File FileName="Sakshi_Carsales/Views/Bikes/Edit.cshtml" Line="25" Column="218" />
+      <File FileName="Sakshi_Carsales/Views/Home/Index.cshtml" Line="1" Column="24" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Sakshi__Carsales PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

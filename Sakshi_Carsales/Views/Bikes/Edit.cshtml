@@ -1,0 +1,29 @@
+﻿@model Sakshi_Carsales.Models.Bikes
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Edit</h2>
+<table cellpadding="1" cellspacing="1" border = "2">
+            <tr>
+                <th>Id</th>
+                <th>Make</th>
+                <th>Model</th>
+                <th>Engine</th>
+                <th>Wheels</th>
+                <th>Bike Type</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>@Model.Id</td>
+                <td><input type = "text" value = "@Model.Make"></td>
+                <td><input type = "text" value = "@Model.Model"></td>
+                <td><input type = "text" value = "@Model.Engine"></td>
+                <td><input type = "text" value = "@Model.Wheels"></td>
+                <td><input type = "text" value = "@Model.BikeType"></td>
+                <td><a class="active" href="@(Url.Action("Update", "Bikes", new { @Id = @Model.Id, @Make = @Model.Make, @Model = @Model.Model, @Engine = @Model.Engine,  @Wheels = @Model.Wheels, @BikeType = @Model.BikeType}))" role="button">Update</a></td>
+            </tr>
+    </table>
+
+    

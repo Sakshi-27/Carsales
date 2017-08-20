@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Sakshi_Carsales.Models.Cars>
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>List of Cars</h2>
+        <table cellpadding="1" cellspacing="1" border = "2">
+            <tr>
+		        <th>Id</th>
+                <th>Make</th>
+                <th>Model</th>
+                <th>Engine</th>
+		        <th>Doors</th>
+                <th>Wheels</th>
+                <th>Car Type</th>
+		        <th>Update</th>
+            </tr>
+	        @foreach (var items in Model)
+            {
+                <tr>
+		            <td>@items.Id</td>
+                    <td>@items.Make</td>
+                    <td>@items.Model</td>
+                    <td>@items.Engine</td>
+		            <td>@items.Doors</td>
+		            <td>@items.Wheels</td>
+		            <td>@items.CarType</td>
+		            <td><a class="active" href="@(Url.Action("Edit", "Cars", new{id = @items.Id} ))" role="button">Edit</a></td>
+		     
+                </tr>
+            }
+	</table>
